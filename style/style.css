@@ -1,0 +1,44 @@
+:root {
+  --mainColor: #383838;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "IBM Plex Mono", monospace;
+  background: rgb(122, 90, 229);
+  flex-direction: column;
+  transition: 0.5s all;
+}
+h3 {
+  color: white;
+  margin: 1rem 0;
+}
+
+button {
+  width: 8rem;
+  border: 3px solid var(--mainColor);
+  outline: none;
+  background: var(--mainColor);
+  color: #fff;
+  padding: 16px;
+  border-radius: 0.225rem;
+  cursor: pointer;
+  transition: 0.3s all;
+  font-family: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}
+button:hover {
+  transform: scale(1.1);
+}
